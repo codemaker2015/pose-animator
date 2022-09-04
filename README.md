@@ -37,7 +37,13 @@ The static image demo shows the avatar positioned from a single image.
 Install dependencies and prepare the build directory:
 
 ```sh
-yarn
+yarn install
+yarn build
+```
+or
+```
+npm install
+npm run-script build
 ```
 
 To watch files for changes, and launch a dev server:
